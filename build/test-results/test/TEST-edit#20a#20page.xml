@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edit a page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-27T03:12:29" hostname="carecloud-VivoBook-ASUSLaptop-X430FA-S430FA" time="18.773">
+  <properties/>
+  <testcase name="Edit page from the edit option of the table" classname="edit a page" time="18.773"/>
+  <system-out><![CDATA[
+Feature: edit a page
+
+  Scenario: Edit page from the edit option of the table ?[90m# src/test/resources/features/pages/edit_page.feature:3?[0m
+22:12:29.481 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Edit page from the edit option of the table(edit-a-page;edit-page-from-the-edit-option-of-the-table)
+-------------------------------------------------------------------
+22:12:29.695 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+22:12:29.696 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mActor?[0m?[32m login the system?[0m                        ?[90m# CommonStepDefinitions.actor_login_the_system(String)?[0m
+    ?[32mWhen ?[0m?[32mhe decides to edit the page?[0m                    ?[90m# EditPageStepDefinitions.he_decides_to_edit_the_page()?[0m
+    ?[32mAnd ?[0m?[32mupdate the content?[0m                              ?[90m# EditPageStepDefinitions.update_de_content()?[0m
+    ?[32mThen ?[0m?[32mthe ?[0m?[32m?[1mpage?[0m?[32m should be edited?[0m                      ?[90m# EditPageStepDefinitions.the_page_should_be_edited(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[ene. 26, 2021 10:12:29 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 4482
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1611717149,971][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+ene. 26, 2021 10:12:30 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

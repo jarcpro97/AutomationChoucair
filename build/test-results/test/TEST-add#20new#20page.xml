@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="add new page" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-27T03:12:04" hostname="carecloud-VivoBook-ASUSLaptop-X430FA-S430FA" time="25.16">
+  <properties/>
+  <testcase name="Create a simple page" classname="add new page" time="25.16"/>
+  <system-out><![CDATA[Feature: add new page
+
+  Scenario: Create a simple page    ?[90m# src/test/resources/features/pages/add_new_page.feature:3?[0m
+22:12:04.174 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Create a simple page(add-new-page;create-a-simple-page)
+-------------------------------------------------------------------
+22:12:04.929 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+22:12:04.930 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mActor?[0m?[32m login the system?[0m    ?[90m# CommonStepDefinitions.actor_login_the_system(String)?[0m
+    ?[32mAnd ?[0m?[32madd new page?[0m                ?[90m# AddNewPageStepDefinitions.add_new_page()?[0m
+    ?[32mWhen ?[0m?[32mhe write the content?[0m       ?[90m# AddNewPageStepDefinitions.he_write_the_content()?[0m
+    ?[32mAnd ?[0m?[32msave the page?[0m               ?[90m# AddNewPageStepDefinitions.save_the_page()?[0m
+    ?[32mThen ?[0m?[32mthe ?[0m?[32m?[1mpage?[0m?[32m should be created?[0m ?[90m# AddNewPageStepDefinitions.the_page_should_be_created(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[ene. 26, 2021 10:12:04 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 24080
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1611717125,467][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+ene. 26, 2021 10:12:05 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
